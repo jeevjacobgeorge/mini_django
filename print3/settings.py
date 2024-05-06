@@ -59,7 +59,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:4173",
     "https://miniprojectprintmanagement.pythonanywhere.com"
-    "https://printmanagementfront-g2tkmzg25-jeevs-projects.vercel.app/",
+    'https://printmanagementfront-87921tbxa-jeevs-projects.vercel.app',
 
 ]
 
