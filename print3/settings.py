@@ -56,10 +56,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
+    'https://printmanagementfront-87921tbxa-jeevs-projects.vercel.app',
     "http://localhost:5173",
     "http://localhost:4173",
-    "https://miniprojectprintmanagement.pythonanywhere.com"
-    'https://printmanagementfront-87921tbxa-jeevs-projects.vercel.app',
 
 ]
 
