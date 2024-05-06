@@ -3,7 +3,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: url("../bg1.jpg"); 
+    background: url("./bg1.jpg"); 
     background-size: cover;
     color:rgb(255, 255, 255);
 }
