@@ -13,7 +13,7 @@ from users import views as user_views
 # router.register('studapi', views.StudentViewSet, basename='student')
 
 urlpatterns = [
-    path('',include('users.urls')),
+    path('/',include('users.urls')),
     path('admin/', admin.site.urls),
     path('api/file',views.FileUpload.as_view()),
     path('api/signup', views.StudentViewSet.as_view({'post': 'create'})),
