@@ -60,6 +60,7 @@ CORS_ALLOWED_ORIGINS = [
     'https://printmanagementfront-42ndy9pt6-jeevs-projects.vercel.app/',
     'https://printmanagementfront-6zqblcrxf-jeevs-projects.vercel.app/',
     'https://printmanagementfront-l5faabwm0-jeevs-projects.vercel.app',
+    'https://printmanagementfront-9oihn89c9-jeevs-projects.vercel.app',
     "http://localhost:5173",
     "http://localhost:4173",
 
