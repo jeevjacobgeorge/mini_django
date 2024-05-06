@@ -58,6 +58,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:4173",
+    "https://miniprojectprintmanagement.pythonanywhere.com"
 
 ]
 
@@ -127,8 +128,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 STATIC_URL = '/static/'
-STATIC_ROOT ='/home/jeevjacobgeorge/miniprojectprintmanagement/static'
-
+STATIC_ROOT ='/home/miniprojectprintmanagement/mini_django/static'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
