@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-j2lik*pe*$lc2t$2w*uq$y_xwd+jek1ttc%7n2pz)3=w*lfa%k
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['miniprojectprintmanagement.pythonanywhere.com']
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'studapi',
     'users',
+    'corsheaders',
     'crispy_forms',
     "crispy_bootstrap4",
 ]
