@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'studapi',
     'users',
-    'corsheaders',
     'crispy_forms',
     "crispy_bootstrap4",
 ]
