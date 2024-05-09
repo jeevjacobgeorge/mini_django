@@ -136,7 +136,7 @@
                                 }
                                 else if (experiments[i][key][0]){
                                     // uploaded to print
-                                    const url = "http://127.0.0.1:8000/" + `${experiments[i][key][1]}`;
+                                    const url = "https://miniprojectprintmanagement.pythonanywhere.com/" + `${experiments[i][key][1]}`;
                                     const id = `${experiments[i][key][3]}`
                                     td1.innerHTML = `<button class = "printbtn" onclick=print('${url}','${id}') >Print</button>`;
                                 }
@@ -195,7 +195,7 @@
                     if (experiments[i].hasOwnProperty(key)) {
                     // Check if the experiment belongs to the given studentId
                         if (experiments[i][key][0]) {
-                            const url = "http://127.0.0.1:8000/" + `${experiments[i][key][1]}`;
+                            const url = "https://miniprojectprintmanagement.pythonanywhere.com/" + `${experiments[i][key][1]}`;
                             filePromises.push(fetchFileContent(url));
                         }
                     }
