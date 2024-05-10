@@ -18,7 +18,7 @@
         <form method="POST" class="rounded p-4 bg-light">
             {% csrf_token %}
             <fieldset class="border p-3 rounded">
-                <legend class="border-bottom mb-4">Login</legend>
+                <legend class="border-bottom mb-4 login login_contents" >Login</legend>
                 {{ form | crispy }}
             </fieldset>
             <div class="btn_div">
